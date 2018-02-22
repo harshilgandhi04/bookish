@@ -1,0 +1,20 @@
+<resources>
+    <string name="app_name">BOOK-HUB</string>
+    <string name="title_activity_main2">Main2Activity</string>
+
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+
+    <string name="action_settings">Settings</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="title_activity_m_screen">mScreenActivity</string>
+    <string name="title_activity_main4">Main4Activity</string>
+    <string name="section_format">Hello World from section: %1$d</string>
+    <string name="title_activity_main22">Main22Activity</string>
+    <string name="category_Trending">TRENDING</string>
+    <string name="category_BestOf">BEST OF 2016</string>
+    <string name="category_recomm">FOR YOU</string>
+    <string name="category_phrases">PROFILE</string>
+</resources>

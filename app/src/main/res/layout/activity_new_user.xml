@@ -1,0 +1,185 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_new_user"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.android.book_hub.NewUser"
+    android:background="#FFE0B2">
+
+
+    <ImageView
+        android:layout_width="130dp"
+        android:layout_height="110dp"
+        android:adjustViewBounds="true"
+        android:id="@+id/profilepic"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="32dp"
+        android:src="@drawable/profile2"
+        android:scaleType="fitXY"
+        android:padding="1dp"
+        android:cropToPadding="true"
+        />
+
+    <EditText
+        style="@style/edittext"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:inputType="textPersonName"
+        android:hint="Username"
+        android:layout_centerHorizontal="true"
+        android:id="@+id/username"
+        android:textColorHint="#000"
+        android:paddingBottom="10dp"
+        android:paddingLeft="8dp"
+        android:paddingTop="5dp"
+        android:layout_marginRight="20dp"
+        android:layout_marginLeft="20dp"
+        android:layout_marginBottom="4dp"
+        android:layout_marginTop="30dp"
+        android:textSize="16sp"
+        android:drawableLeft="@drawable/user"
+        android:drawablePadding="4dip"
+        android:layout_below="@id/profilepic"
+        />
+
+
+
+    <EditText
+        style="@style/edittext"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:inputType="textEmailAddress"
+        android:layout_below="@+id/username"
+        android:layout_centerHorizontal="true"
+        android:id="@+id/nuemail"
+        android:hint="Email"
+      android:textColorHint="#000"
+        android:paddingBottom="10dp"
+        android:paddingLeft="8dp"
+        android:paddingTop="5dp"
+        android:layout_marginRight="20dp"
+        android:layout_marginLeft="20dp"
+        android:layout_marginBottom="4dp"
+        android:textSize="16sp"
+        android:drawableLeft="@drawable/email"
+        android:drawablePadding="4dip"/>
+
+    <EditText
+        style="@style/edittext"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:inputType="textPassword"
+        android:layout_below="@id/nuemail"
+        android:layout_centerHorizontal="true"
+        android:id="@+id/nupass"
+        android:hint="Password"
+        android:textColorHint="#000"
+        android:paddingBottom="10dp"
+        android:paddingLeft="8dp"
+        android:paddingTop="5dp"
+        android:layout_marginRight="20dp"
+        android:layout_marginLeft="20dp"
+        android:layout_marginBottom="4dp"
+        android:textSize="16sp"
+        android:drawableLeft="@drawable/pass"
+        android:drawablePadding="4dip"/>
+
+    <EditText
+        style="@style/edittext"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:inputType="textPassword"
+        android:layout_below="@id/nupass"
+        android:layout_centerHorizontal="true"
+        android:id="@+id/confirmpass"
+        android:hint="Confirm Password"
+        android:textColorHint="#000"
+        android:paddingBottom="10dp"
+        android:paddingLeft="8dp"
+        android:paddingTop="5dp"
+        android:layout_marginRight="20dp"
+        android:layout_marginLeft="20dp"
+        android:layout_marginBottom="4dp"
+        android:textSize="16sp"
+        android:drawableLeft="@drawable/pass"
+        android:drawablePadding="4dip"/>
+
+
+    <EditText
+        style="@style/edittext"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:inputType="text"
+        android:layout_below="@id/confirmpass"
+        android:layout_centerHorizontal="true"
+        android:id="@+id/bio"
+        android:hint="Tell us about you"
+        android:textColorHint="#000"
+        android:paddingBottom="10dp"
+        android:paddingLeft="8dp"
+        android:paddingTop="5dp"
+        android:layout_marginRight="20dp"
+        android:layout_marginLeft="20dp"
+        android:textSize="16sp"
+        android:drawableLeft="@drawable/bio"
+        android:drawablePadding="4dip"/>
+
+    <RadioGroup
+        android:id="@+id/gender"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_below="@id/confirmpass"
+        android:layout_marginTop="50dp">
+
+        <RadioButton
+            android:id="@+id/maleradio"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Male"
+            android:layout_marginRight="20dp"
+            android:layout_marginLeft="70dp"
+            android:textSize="18sp"
+            android:textColor="#000"
+            android:paddingLeft="10dp"
+            />
+        <RadioButton
+            android:id="@+id/femaleradio"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Female"
+            android:layout_marginRight="30dp"
+            android:layout_marginLeft="10dp"
+            android:textSize="18sp"
+            android:textColor="#000"
+            android:paddingLeft="10dp"/>
+    </RadioGroup>
+
+    <Button
+        android:id="@+id/nuregister"
+        style="@style/button"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/gender"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="15dp"
+        android:layout_marginLeft="70dp"
+        android:layout_marginRight="70dp"
+        android:layout_marginTop="20dp"
+        android:background="@drawable/border1"
+        android:text="REGISTER"
+        android:textSize="16dp"
+        android:textColor="#000"/>
+    <Button
+        android:id="@+id/signin"
+        android:layout_height="wrap_content"
+        android:layout_width="match_parent"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:text="Already a user? Sign In"
+        android:textAllCaps="false"
+        android:background="#FF9800"/>
+
+</RelativeLayout>

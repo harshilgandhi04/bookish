@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.android.book_hub">
+
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+    <uses-permission android:name="android.permission.ACCESS_WIFI_STATE" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/icon1"
+        android:label="Bookish"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity
+            android:name=".SplashActivity"
+            android:screenOrientation="portrait"
+            android:theme="@style/splash">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".NewUser"
+            android:label="Register" />
+        <activity
+            android:name=".ResetPasswordActivity"
+            android:label="Forgot Password" />
+        <activity android:name=".MainActivity" />
+        <activity
+            android:name=".SettingsActivity"
+            android:label="Settings"
+            android:theme="@style/settingtheme" />
+        <activity android:name=".Main3Activity" />
+        <activity
+            android:name=".ProfileActivity"
+            android:label="Profile"
+            android:theme="@style/settingtheme" />
+        <activity android:name=".activity_main_chat"
+            android:theme="@style/settingtheme"
+            android:label="Groups"/>
+        <activity android:name=".activity_chat_room"
+            android:theme="@style/settingtheme"
+            android:label="Chat Room"></activity>
+    </application>
+
+</manifest>

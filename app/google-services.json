@@ -1,0 +1,55 @@
+{
+  "project_info": {
+    "project_number": "847108343088",
+    "firebase_url": "https://bookish-app.firebaseio.com",
+    "project_id": "bookish-app",
+    "storage_bucket": "bookish-app.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:847108343088:android:16c5ce49100a5568",
+        "android_client_info": {
+          "package_name": "com.example.android.book_hub"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "847108343088-7mmda56ofsqod7880a4mc9lphl6mam26.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.android.book_hub",
+            "certificate_hash": "a3b6f388919abdda234fb636ca08ab4789099405"
+          }
+        },
+        {
+          "client_id": "847108343088-o5nabc104u0lc6acvvg6u3d6kfj04itu.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBVG844lrtShemv_4JZ_i-wH3p2BovnAlw"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "847108343088-o5nabc104u0lc6acvvg6u3d6kfj04itu.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
